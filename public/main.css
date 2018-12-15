@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+#background-image {
+ background-image: url("background.jpeg");
+ width: 100%;
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+button {
+ border: silver 1px solid;
+ margin-top: 10px;	
+ border-radius: 5px;
+ background-color: transparent;
+ color: silver;
+ text-align: center;
+ text-decoration: none;
+ width: 100px;
+ height: 30px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+h1{
+	font-family: italic;
+	color: silver;
+}
+
